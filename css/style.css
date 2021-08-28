@@ -1,0 +1,31 @@
+.overflow{
+    overflow-x: hidden;
+}
+.honda-bg{
+    background-color: #264653;
+}
+.grayscale{
+    filter: grayscale(100%);
+
+}
+.honda-text-color{
+    color: #E76F51 ;
+}
+.new-model-bg-color{
+    background-color:   #b8b8f1;
+}
+
+@media only screen and (max-width: 688px) {
+    body{
+        overflow-x: hidden;
+        
+    }
+    .flex{
+        flex-wrap: wrap;
+    }
+    .img-responsive{
+       width: 100%;
+       height: auto;
+    }
+    
+}
